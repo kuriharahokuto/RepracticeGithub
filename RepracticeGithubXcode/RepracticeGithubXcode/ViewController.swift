@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var test1: String?
+        test1 = "This is test1"
+        if let hoge = test1{
+            print(test1)
+        }
     }
 
     override func didReceiveMemoryWarning() {
